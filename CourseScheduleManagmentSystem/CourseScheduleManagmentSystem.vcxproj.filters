@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\ConsoleUI">
+      <UniqueIdentifier>{4e84c086-4d32-4473-8214-38ccb9141de2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Entities">
+      <UniqueIdentifier>{8a9985b3-c079-4826-903d-6dcf3cd7f315}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Business">
+      <UniqueIdentifier>{6cd9bb8e-ae22-4043-8cb3-4000856df50b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DataAccess">
+      <UniqueIdentifier>{cc2b7684-1102-4bcc-a194-630a7abefca9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Business\Abstract">
+      <UniqueIdentifier>{b2e895f5-b4a0-459e-bf32-2b98518d5bb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Business\Concrete">
+      <UniqueIdentifier>{e7fdf4d5-4685-4df6-a59d-880fb465c87b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Db">
+      <UniqueIdentifier>{25e88752-68b5-4b8d-9ef9-4589ebb888bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Entities\Concrete">
+      <UniqueIdentifier>{14338bfd-b317-4d07-9fe6-9caac7876e59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Entities\DTOs">
+      <UniqueIdentifier>{2a46b1a7-7e56-44f9-9be4-ecd04a37ec07}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ProfessorManager.cpp">
+      <Filter>Source Files\Business\Concrete</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files\ConsoleUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassManager.cpp">
+      <Filter>Source Files\Business\Concrete</Filter>
+    </ClCompile>
+    <ClCompile Include="CourseManager.cpp">
+      <Filter>Source Files\Business\Concrete</Filter>
+    </ClCompile>
+    <ClCompile Include="SyllabusManager.cpp">
+      <Filter>Source Files\Business\Concrete</Filter>
+    </ClCompile>
+    <ClCompile Include="RoomManager.cpp">
+      <Filter>Source Files\Business\Concrete</Filter>
+    </ClCompile>
+    <ClCompile Include="DbContext.cpp">
+      <Filter>Source Files\DataAccess</Filter>
+    </ClCompile>
+    <ClCompile Include="sqlite\shell.c">
+      <Filter>Source Files\Db</Filter>
+    </ClCompile>
+    <ClCompile Include="sqlite\sqlite3.c">
+      <Filter>Source Files\Db</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ProfessorService.h">
+      <Filter>Source Files\Business\Abstract</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassService.h">
+      <Filter>Source Files\Business\Abstract</Filter>
+    </ClInclude>
+    <ClInclude Include="CourseService.h">
+      <Filter>Source Files\Business\Abstract</Filter>
+    </ClInclude>
+    <ClInclude Include="RoomService.h">
+      <Filter>Source Files\Business\Abstract</Filter>
+    </ClInclude>
+    <ClInclude Include="SyllabusService.h">
+      <Filter>Source Files\Business\Abstract</Filter>
+    </ClInclude>
+    <ClInclude Include="DbService.h">
+      <Filter>Source Files\DataAccess</Filter>
+    </ClInclude>
+    <ClInclude Include="sqlite\sqlite3.h">
+      <Filter>Source Files\Db</Filter>
+    </ClInclude>
+    <ClInclude Include="sqlite\sqlite3ext.h">
+      <Filter>Source Files\Db</Filter>
+    </ClInclude>
+    <ClInclude Include="Class.h">
+      <Filter>Source Files\Entities\Concrete</Filter>
+    </ClInclude>
+    <ClInclude Include="Course.h">
+      <Filter>Source Files\Entities\Concrete</Filter>
+    </ClInclude>
+    <ClInclude Include="Professor.h">
+      <Filter>Source Files\Entities\Concrete</Filter>
+    </ClInclude>
+    <ClInclude Include="Room.h">
+      <Filter>Source Files\Entities\Concrete</Filter>
+    </ClInclude>
+    <ClInclude Include="Syllabus.h">
+      <Filter>Source Files\Entities\Concrete</Filter>
+    </ClInclude>
+    <ClInclude Include="SyllabusDetailDto.h">
+      <Filter>Source Files\Entities\DTOs</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>
